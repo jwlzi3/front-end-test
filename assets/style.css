@@ -1,0 +1,27 @@
+/**
+
+Center .box horizontally and vertically on the page
+
+/------------/  <---- page
+|    ____    |
+|   |    |<--|--- .box
+|   |____|   |
+|            |
+/------------/
+
+**/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.box {
+  height: 200px;
+  width: 200px;
+  /* What's the difference between 50% and 50vw? */
+  background-color: purple;
+}
+
+/* Can you explain the difference between REM and EM? */
