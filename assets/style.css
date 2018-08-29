@@ -21,7 +21,13 @@ body {
   height: 200px;
   width: 200px;
   /* What's the difference between 50% and 50vw? */
+        /** 50% is the width of the parent element and 50vw is the width of the viewport, or browser window. **/
   background-color: purple;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Can you explain the difference between REM and EM? */
+        /** REM is only relative to the (Root) size, while EM is relative to the size of its direct or nearest parent. **/
